@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: user
+    password: 357357
+    driverClassName: org.postgres.Driver
+  jpa:
+    database: postgresql
+    databasePlatform: org.hibernate.dialect.PostgreSQLDialect
+#    generateDdl: true
+
+proj:
+  app:
+    secret: arukdg2342lklqq
+    lifetime: 60000
+
+server:
+  port: 9099
